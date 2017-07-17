@@ -2,7 +2,6 @@
 
 
 ## メインアプリケーション（Webサーバー）を起動。  
-  
 ```bash
 npm start
 ```
@@ -168,7 +167,7 @@ webpack側でのhot reloadの設定と合わせて.babel側にも記述してい
 
 #### webpack 3.0.0を使うにあたり
 * ``OccurenceOrderPlugin``の名前が``OccurrenceOrderPlugin``に変更されてるなどの地味な変更があり注意
-* ``module:{postcss: function(){}}``のようにmodule内にpostcssを描く書き方でエラーが表示される
+* ``module:{postcss: function(){}}``のようにmodule内にpostcssを書くとエラーが表示される
 
 https://github.com/postcss/postcss-loader/issues/92
 
