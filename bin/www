@@ -1,0 +1,7 @@
+#!/usr/bin/env node
+const app = require('../server/app.js').default;
+const settings = require('../server/settings').default;
+
+const server = app.listen(settings.port, () => {
+  console.log(`Express server listening on port ${server.address().port}`);
+});
