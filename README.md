@@ -165,7 +165,7 @@ webpack側でのhot reloadの設定と合わせて.babel側にも記述してい
 
 * [webpackのHot Module ReplacementでWebフロントエンドを爆速開発](http://qiita.com/sergeant-wizard/items/60b557fc1c763f0a1531)
 
-#### webpack 3.0.0を使うにあたり
+### webpack 3.0.0を使うにあたり
 * ``OccurenceOrderPlugin``の名前が``OccurrenceOrderPlugin``に変更されてるなどの地味な変更があり注意
 * ``module:{postcss: function(){}}``のようにmodule内にpostcssを書くとエラーが表示される
 
