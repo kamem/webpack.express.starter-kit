@@ -157,7 +157,7 @@ webpack側でのhot reloadの設定と合わせて.babel側にも記述してい
   }
 ```
 
-##### 参考
+#### 参考
 
 * [webpack, React Hot Loader + Browsersync でクロスブラウジング+ホットリロード開発](http://uraway.hatenablog.com/entry/2016/03/25/034706)
 
@@ -188,7 +188,7 @@ plugins: [
 ```
 
 
-#### postcss
+### postcss
 
 ```bash
 npm run postcss
@@ -202,7 +202,7 @@ importで読み込まれてる先のファイルを編集した際にwatchが発
 ``postcss-import``を使うようにして個別で使いたいプラグインを読み込んでいます。
 
 
-#### nodemonを使った場合のserver側のeslintについて
+### nodemonを使った場合のserver側のeslintについて
 
 ```bash
 npm run start-server:dev
@@ -215,6 +215,6 @@ NODE_ENV=development nodemon -r babel-register --watch server -e js,ejs bin/www 
 
 
 
-##### 参考
+#### 参考
 
 * [how to do linting using nodemon?](https://stackoverflow.com/questions/34588458/how-to-do-linting-using-nodemon)
